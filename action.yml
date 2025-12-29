@@ -1,0 +1,35 @@
+name: 'Pompelmi Malware Scan'
+description: 'Scan files/folders for malware using pompelmi (local mode) or via optional Premium API'
+author: 'Pompelmi'
+branding:
+  icon: 'shield'
+  color: 'orange'
+
+inputs:
+  path:
+    description: 'File or directory to scan'
+    required: true
+  mode:
+    description: 'Scan mode: "local" (default, free) or "api" (premium)'
+    required: false
+    default: 'local'
+  api_base_url:
+    description: 'API base URL (required if mode=api)'
+    required: false
+  api_key:
+    description: 'API key for authentication (required if mode=api, use secrets)'
+    required: false
+  fail_on_detection:
+    description: 'Fail the workflow if malicious content is detected'
+    required: false
+    default: 'true'
+
+outputs:
+  verdict:
+    description: 'Scan verdict: clean, suspicious, malicious, or error'
+  scanned_files:
+    description: 'Number of files scanned'
+
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
