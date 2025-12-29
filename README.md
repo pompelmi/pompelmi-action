@@ -1,13 +1,15 @@
 <div align="center">
 
-![pompelmi logo](https://raw.githubusercontent.com/pompelmi/pompelmi/main/assets/pompelmi-logo.svg)
+<a href="https://github.com/pompelmi/pompelmi-action" target="_blank" rel="noopener noreferrer">
+  <img src="https://raw.githubusercontent.com/pompelmi/pompelmi/refs/heads/main/assets/logo.svg" alt="pompelmi logo" width="360" />
+</a>
 
 # Pompelmi Malware Scan (GitHub Action)
 
 [![GitHub Action](https://img.shields.io/badge/GitHub-Action-2088FF?logo=github-actions&logoColor=white)](https://github.com/marketplace/actions/pompelmi-malware-scan)
-[![npm version](https://img.shields.io/npm/v/pompelmi)](https://www.npmjs.com/package/pompelmi)
-[![CI Status](https://github.com/pompelmi/pompelmi-action/actions/workflows/ci.yml/badge.svg)](https://github.com/pompelmi/pompelmi-action/actions)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![npm version](https://img.shields.io/npm/v/pompelmi?label=version&color=0a7ea4&logo=npm)](https://www.npmjs.com/package/pompelmi)
+[![CI Status](https://img.shields.io/github/actions/workflow/status/pompelmi/pompelmi-action/ci.yml?branch=main&label=CI&logo=github)](https://github.com/pompelmi/pompelmi-action/actions)
+[![License: MIT](https://img.shields.io/npm/l/pompelmi?color=blue)](https://github.com/pompelmi/pompelmi-action/blob/main/LICENSE)
 [![node](https://img.shields.io/badge/node-%3E%3D18-339933?logo=node.js&logoColor=white)](https://nodejs.org)
 
 [![GitHub stars](https://img.shields.io/github/stars/pompelmi/pompelmi?style=social)](https://github.com/pompelmi/pompelmi/stargazers)
@@ -132,8 +134,8 @@ When scanning multiple files, the action aggregates results using this priority:
 <div align="center">
 
 [![Featured in Detection Engineering Weekly](https://img.shields.io/badge/Featured%20in-Detection%20Engineering%20Weekly-0A84FF?style=for-the-badge&logo=substack)](https://www.detectionengineering.net/p/det-eng-weekly-issue-124-the-defcon)
-[![Featured in Node Weekly](https://img.shields.io/badge/Featured%20in-Node%20Weekly-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodeweekly.com/issues/594)
-[![Featured in Bytes](https://img.shields.io/badge/Featured%20in-Bytes-FF6B6B?style=for-the-badge)](https://bytes.dev/archives/429)
+[![Featured in Node Weekly](https://img.shields.io/badge/Featured%20in-Node%20Weekly-FF6600?style=for-the-badge&logo=node.js)](https://nodeweekly.com/issues/594)
+[![Featured in Bytes](https://img.shields.io/badge/Featured%20in-Bytes-111111?style=for-the-badge)](https://bytes.dev/archives/429)
 
 </div>
 
